@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
-@media(max-width:600px){
-    section p{font-size: 1em;
-    margin: 0;}
-}
 
 
 *{
@@ -61,3 +57,11 @@ footer i{color: white;}
     display: flex;
     align-items: center;
     gap: 20px;}
+    
+@media(max-width:1000px){
+    section p{
+        font-size: 1em;
+        margin: 0;
+    }
+    .nature{margin-left: -8dvh;}
+}
