@@ -58,9 +58,9 @@ footer i{color: white;}
     align-items: center;
     gap: 20px;}
     
-@media(max-width:1000px){
+@media(max-width: 600px){
     section p{
-        font-size: 1em;
+        font-size: 0.8em;
         margin: 0;
     }
     .nature{margin-left: -8dvh;}
