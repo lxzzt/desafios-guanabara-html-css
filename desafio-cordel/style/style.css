@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
 *{
     margin: 0;
     border: 0;
@@ -8,7 +9,7 @@
 :root{
     --fonte-principal: 'Birthstone', cursive;
     --corheader:rgba(160, 135, 26, 0.849);
-    --fonte-padrao:'open sans',sans-serif;
+    --fonte-padrao:'comic relief',sans-serif;
 }
 header{
     background-color: var(--corheader);
@@ -27,10 +28,31 @@ header > a{
 }
 
 section p{font-family: var(--fonte-padrao);
-text-wrap: bold;}
-.nature{background-position: center;padding: 5dvh;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.39);background-attachment: fixed;}
+text-wrap: bold;
+font-size: 2em;
+margin-left: 8dvh;}
+.nature{background-position: center;padding: 5dvh;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.39);background-attachment: fixed;
+padding: 9dvh;}
 #_1.nature{background-image:url(../imagens/background001.jpg) ;}
 #_2.nature{background-image:url(../imagens/background002.jpg) ;}
-.nature p {background-color: rgba(255, 255, 255, 0.377);display: inline-block;}
-section p{padding: 10px;}
+.nature p {background-color: rgba(0, 0, 0, 0.425);display: inline-block;
+margin-left: -0.9dvh;
+color: white;}
+section p{padding: 4dvh;}
+footer {background-color: rgb(0, 0, 0);
+color: white; text-align: center;margin: 0;padding: 2dvh;
+font-family: var(--fonte-padrao);
+display: flex;justify-content: center;}
 
+footer i{color: white;}
+
+.footer-content a {
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;}
