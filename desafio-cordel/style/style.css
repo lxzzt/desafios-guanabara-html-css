@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    border: 0;
+}
+:root{
+    --fonte-principal: 'Birthstone', cursive;
+    --corheader:rgba(160, 135, 26, 0.849);
+    --fonte-padrao:'open sans',sans-serif;
+}
+header{
+    background-color: var(--corheader);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    font-size: 2em;
+    line-height: 1em;
+    padding: 2.9dvh;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
+}
+header > a{
+    :hover{color: rgb(173, 173, 173);
+    transition: 0.31s;}
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+section p{font-family: var(--fonte-padrao);
+text-wrap: bold;}
+.nature{background-position: center;padding: 5dvh;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.39);background-attachment: fixed;}
+#_1.nature{background-image:url(../imagens/background001.jpg) ;}
+#_2.nature{background-image:url(../imagens/background002.jpg) ;}
+.nature p {background-color: rgba(255, 255, 255, 0.377);display: inline-block;}
+section p{padding: 10px;}
+
