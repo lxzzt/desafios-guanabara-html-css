@@ -16,21 +16,20 @@ header{
     background-color: var(--corheader);
     font-family: var(--fonte-principal);
     text-align: center;
-    font-size: 2em;
+    font-size: 7vw;
     line-height: 1em;
     padding: 2.9dvh;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
 }
 header > a{
-    :hover{color: rgb(173, 173, 173);
-    transition: 0.31s;}
+    
+    
     color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
+    text-decoration: none;}
+header > a:hover{color: rgb(173, 173, 173);transition: 0.31s;}
 section p{font-family: var(--fonte-padrao);
 text-wrap: bold;
-font-size: 2em;
+font-size: clamp(0.8rem, 2vw, 4rem);;
 margin-left: 8dvh;}
 .nature{background-position: center;padding: 5dvh;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.39);background-attachment: fixed;
 padding: 9dvh;}
@@ -49,7 +48,7 @@ footer i{color: white;}
 
 .footer-content a {
     color: #000;
-    font-size: 1.5em;
+    font-size: 7vw;
     text-decoration: none;
 }
 
@@ -59,9 +58,6 @@ footer i{color: white;}
     gap: 20px;}
     
 @media(max-width: 600px){
-    section p{
-        font-size: 0.8em;
-        margin: 0;
-    }
-    .nature{margin-left: -8dvh;}
+    .nature{margin-left: -17dvw;}
+    section p {margin-left:-5dvw}
 }
