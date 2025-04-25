@@ -16,27 +16,26 @@ header{
     background-color: var(--corheader);
     font-family: var(--fonte-principal);
     text-align: center;
-    font-size: 7vw;
+    font-size:clamp(2rem , 4vw ,8rem);
     line-height: 1em;
     padding: 2.9dvh;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);
-}
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.61);}
 header > a{
     
     
     color: rgb(255, 255, 255);
     text-decoration: none;}
 header > a:hover{color: rgb(173, 173, 173);transition: 0.31s;}
-section p{font-family: var(--fonte-padrao);
+section p,.nature p{font-family: var(--fonte-padrao);
 text-wrap: bold;
 font-size: clamp(0.8rem, 2vw, 4rem);;
-margin-left: 8dvh;}
+margin-left:1px;}
+.nature p{display: inline;}
 .nature{background-position: center;padding: 5dvh;box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.39);background-attachment: fixed;
 padding: 9dvh;}
 #_1.nature{background-image:url(../imagens/background001.jpg) ;}
 #_2.nature{background-image:url(../imagens/background002.jpg) ;}
 .nature p {background-color: rgba(0, 0, 0, 0.425);display: inline-block;
-margin-left: -0.9dvh;
 color: white;}
 section p{padding: 4dvh;}
 footer {background-color: rgb(0, 0, 0);
@@ -48,16 +47,18 @@ footer i{color: white;}
 
 .footer-content a {
     color: #000;
-    font-size: 7vw;
     text-decoration: none;
 }
+footer div{    font-size: 2vw;}
 
 .footer-content {
     display: flex;
     align-items: center;
     gap: 20px;}
     
-@media(max-width: 600px){
-    .nature{margin-left: -17dvw;}
-    section p {margin-left:-5dvw}
+#instagram:hover {
+    background-image: -webkit-linear-gradient(45deg, #9305F2, #FF01B7, #FF0047, #FF6C02, #FE9601);
+    background-image: -moz-linear-gradient(45deg, #9305F2, #FF01B7, #FF0047, #FF6C02, #FE9601);
+    background-image: linear-gradient(45deg, #9305F2, #FF01B7, #FF0047, #FF6C02, #FE9601);
 }
+#git:hover{color: rgb(86, 70, 158);}
