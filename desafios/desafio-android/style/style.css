@@ -1,1 +1,13 @@
 @charset "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(../fontes/idroid.otf);
+}
+
+*{margin: 0;padding: 0;}
+:root{
+    --font-h1:idroid;
+    --backcolor: ;
+    --backdivcolor: ;
+}
+main h1,section h1{font-family:  var(--font-h1)}
