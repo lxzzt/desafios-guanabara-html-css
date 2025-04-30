@@ -53,31 +53,61 @@ p{text-indent: 30px;
     
     img {size: 500px;display: flex;margin: auto;}
     
-    
     .iframe_conteiner {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding-top: 56.25%;
-    background-color: var(--color5);
-    margin: auto;
-    }
-    
-    .iframe_conteiner iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 0;
-    }
+        width: 95%;          
+        max-width: 800px;
+        margin: 2rem auto;
+        aspect-ratio: 16 / 9; 
+        display: flex;
+        justify-content: center;  
+        align-items: center;     
+      
+        background-color: var(--color5);
+        border-radius: 10px;
+      }
+      
+      .iframe_conteiner iframe {
+        width: 80%;
+        height: 80%;
+        border: 0;
+      }
 
 .main_plus_section{margin: 0px 15vw;background-color: white;box-shadow: rgba(0, 0, 0, 0.452) 0px 0px 3px;border-radius: 0px 0px 5px 10px;overflow: hidden;}
 
 
 
 
-main h1{font-family:  var(--font-h1); background-image: linear-gradient(to right, #a5faae, #00e01600);padding: 5px;margin: 20px;color: var(--color5);}
+main h1{font-family:  var(--font-h1); background-image: linear-gradient(to right, #a5faae, #00e01600);padding: 5px;margin: 20px;color: var(--color5);color: white;text-shadow:black  1px 1px 1px;}
 
+
+section#curiosidades h1{background-color:var(--color3);
+margin: 20px -10px;
+padding: 10px;
+border-radius: 5px 0px 0px 0px;}
+section div{
+    background-color:rgba(179, 255, 179, 0.705);
+margin:0px 20px 20px 20px;
+border-radius: 5px 5px 5px 0px;
+padding: 0px 10px 10px 10px;
+box-shadow: rgba(0, 0, 0, 0.493) 0px 0px 3px;}
+section ul{
+    column-count: 2;
+    break-inside: avoid;
+    list-style: none;
+    display: block;
+    text-align: center;   
+}
+
+abbr[title] {
+    text-decoration: none;
+}
+
+
+footer {background-color: var(--color6);text-align: center;}
+footer p{
+margin:0;display: inline-block;color:white;padding: 10px;}
+
+    footer a{color:white}
         
     #instagram:hover {
         background-image: -webkit-linear-gradient(45deg, #9305F2, #FF01B7, #FF0047, #FF6C02, #FE9601);
